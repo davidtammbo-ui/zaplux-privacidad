@@ -1,6 +1,6 @@
 # Política de privacidad de Zaplux IPTV Player
 
-Última actualización: 21 de octubre de 2026
+Última actualización: 22 de octubre de 2026
 
 Zaplux es un reproductor de listas IPTV para Android (móviles, tabletas, Android TV, Google TV y Fire TV). Esta política explica qué datos maneja la app y qué hace con ellos.
 
@@ -16,7 +16,7 @@ Zaplux es un reproductor de listas IPTV para Android (móviles, tabletas, Androi
 - Favoritos, historial, progreso de películas y series, marcas, grabaciones y descargas.
 - Tus ajustes (tema, idioma de audio, PIN del modo infantil, etc.).
 
-Estos datos no salen del aparato salvo que tú lo pidas: al exportar una copia de seguridad, al enviar tus listas a otra tele de tu red de casa o al enviar un informe de errores.
+Estos datos no salen del aparato salvo que tú lo pidas: al exportar una copia de seguridad, al enviar tus listas a otra tele de tu red de casa o al enviar un informe de errores. Además, si tienes activada la copia de seguridad de Android (en Android 9 o posterior), Android guarda en tu cuenta de Google un resumen de Zaplux (listas, favoritos, progreso y ajustes) cifrado de extremo a extremo con el bloqueo de pantalla de tu aparato: ni Google ni el desarrollador pueden leerlo. En Android 6 a 8, que no cifran esa copia, Zaplux no guarda nada en ella.
 
 ## Conexiones que hace la app
 
@@ -65,10 +65,10 @@ Puedes escribir al desarrollador en el correo que figura en la ficha de la app d
 
 # Zaplux IPTV Player privacy policy (English)
 
-Last updated: 21 October 2026
+Last updated: 22 October 2026
 
 - Zaplux has **no user accounts, no ads, no analytics and no tracking**, and **no developer server**: your data is never sent to the developer.
-- Your IPTV lists (including your provider's username and password), favourites, history, settings, recordings and downloads are stored **only on your device**. They leave it only if you ask: exporting a backup, sending your lists to another TV on your home network or sending an error report.
+- Your IPTV lists (including your provider's username and password), favourites, history, settings, recordings and downloads are stored **only on your device**. They leave it only if you ask: exporting a backup, sending your lists to another TV on your home network or sending an error report. If Android backup is on (Android 9 or later), Android stores a summary of Zaplux (lists, favourites, progress and settings) in your Google account, end-to-end encrypted with your screen lock: neither Google nor the developer can read it. On Android 6 to 8, which do not encrypt that backup, Zaplux stores nothing in it.
 - The app connects to the IPTV and guide servers you add (and the logo and image addresses in your lists), to radio stations only if you use "Match radio", to GitHub to download the public Spanish sports guide (EPG_dobleM) if "Spanish sports agenda" is on (nothing about you is sent), to devices on your local network (QR pairing, sending to another TV, Chromecast) and to Google Play or the Amazon Appstore to buy or check Zaplux Premium.
 - Purchases are handled by the store. Zaplux only receives confirmation that you own Premium and never receives payment details.
 - Error reports are only sent if you tap "Send report", through your own email or messaging app, after you review them. Server addresses, usernames, passwords and IP addresses are removed first.
