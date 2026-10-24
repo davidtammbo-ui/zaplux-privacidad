@@ -1,6 +1,6 @@
 # Política de privacidad de Zaplux IPTV Player
 
-Última actualización: 23 de octubre de 2026
+Última actualización: 24 de octubre de 2026
 
 Zaplux es un reproductor de listas IPTV para Android (móviles, tabletas, Android TV, Google TV y Fire TV). Esta política explica qué datos maneja la app y qué hace con ellos.
 
@@ -23,6 +23,7 @@ Estos datos no salen del aparato salvo que tú lo pidas: al exportar una copia d
 - A los servidores de **tu proveedor IPTV** y de la **guía** que tú añades, para ver canales, películas, series y la programación, y a las direcciones de logos e imágenes que vienen en tus listas.
 - A las **emisoras de radio** que elijas, solo si usas «Radio del partido».
 - A **GitHub** (raw.githubusercontent.com) para bajar la guía pública de deportes de España (EPG_dobleM, de davidmuma) si tienes activada «Agenda deportiva de España». Es una descarga normal: no se envía ningún dato tuyo.
+- A **tdtchannels.com** (lista de TDTChannels, de LaQuay) y a los servidores de las propias cadenas, solo si añades «la TDT de España» desde Ajustes › Listas o la bienvenida. Es una lista más: se descarga y se actualiza como las tuyas y no se envía ningún dato tuyo.
 - A otros aparatos de **tu red local**: para añadir listas desde el móvil con un código QR (la tele abre un servidor temporal en tu red), para enviar tus listas o la copia a otra tele y para enviar el vídeo a un Chromecast.
 - A **Google Play** o **Amazon Appstore** para comprar o comprobar Zaplux Premium.
 - A **servidores públicos de prueba** (de Apple, DASH Industry Forum, Amazon Web Services, la Blender Foundation e Internet Archive) solo si cargas la **lista de demostración**, que trae canales de prueba y películas libres. No se envía ningún dato tuyo.
@@ -80,11 +81,11 @@ Zaplux lo desarrolla **David Fernández Ferreira**, responsable de esta polític
 
 # Zaplux IPTV Player privacy policy (English)
 
-Last updated: 23 October 2026
+Last updated: 24 October 2026
 
 - Zaplux has **no user accounts, no ads, no own analytics and no tracking**, and **no developer server**: your data is never sent to the developer. The only exception is Chromecast: the Google Cast component sends Google technical usage data (device discovery, cast sessions, device model and app version) to measure and improve casting. It is encrypted, not shared with third parties, and neither you nor the developer can turn it off or delete it ([Google's Cast SDK page](https://developers.google.com/cast/docs/android_sender/data_disclosure)). The Amazon version does not include Chromecast.
 - Your IPTV lists (including your provider's username and password), favourites, history, settings, recordings and downloads are stored **only on your device**. They leave it only if you ask: exporting a backup, sending your lists to another TV on your home network or sending an error report. If Android backup is on (Android 9 or later), Android stores a summary of Zaplux (lists, favourites, progress and settings) in your Google account, end-to-end encrypted with your screen lock: neither Google nor the developer can read it. On Android 6 to 8, which do not encrypt that backup, Zaplux stores nothing in it.
-- The app connects to the IPTV and guide servers you add (and the logo and image addresses in your lists), to the radio stations you choose only if you use "Match radio", to GitHub to download the public Spanish sports guide (EPG_dobleM) if "Spanish sports agenda" is on (nothing about you is sent), to devices on your local network (QR pairing, sending to another TV, Chromecast, the error-report QR on TV), to Google Play or the Amazon Appstore to buy or check Zaplux Premium, and to public test servers (Apple, DASH Industry Forum, Amazon Web Services, Blender Foundation, Internet Archive) only if you load the demo list. "Open in another app" and "Copy link" hand the stream address, which may contain your list's username and password, to the app you choose.
+- The app connects to the IPTV and guide servers you add (and the logo and image addresses in your lists), to the radio stations you choose only if you use "Match radio", to GitHub to download the public Spanish sports guide (EPG_dobleM) if "Spanish sports agenda" is on (nothing about you is sent), to tdtchannels.com (TDTChannels, by LaQuay) and the broadcasters' own servers only if you add "Spanish free-to-air TV", to devices on your local network (QR pairing, sending to another TV, Chromecast, the error-report QR on TV), to Google Play or the Amazon Appstore to buy or check Zaplux Premium, and to public test servers (Apple, DASH Industry Forum, Amazon Web Services, Blender Foundation, Internet Archive) only if you load the demo list. "Open in another app" and "Copy link" hand the stream address, which may contain your list's username and password, to the app you choose.
 - Your data is kept in Zaplux's private storage. Recordings you choose to save on an SD card or USB drive can be read by any device it is plugged into. Lists sent from your phone to the TV with the 6-digit code are encrypted end to end.
 - Purchases are handled by the store. Zaplux only receives confirmation that you own Premium and never receives payment details.
 - Error reports are only sent if you tap "Send report", through your own email or messaging app, after you review them. Server addresses, usernames, passwords and IP addresses are removed first.
