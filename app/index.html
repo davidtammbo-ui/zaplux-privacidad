@@ -25,6 +25,7 @@ small{color:var(--soft)}a{color:var(--acc)}
 <h1>Zaplux IPTV Player</h1>
 <p id="lead"></p>
 <a class="btn" id="cta" href="https://www.amazon.com/dp/B0HP2YF1GZ"></a>
+<p id="vid" style="display:none"><a id="vida" href="https://youtu.be/ZUXtIzro6-c"></a></p>
 <ul id="feat"></ul>
 <p><small id="note"></small></p>
 <p><small><a href="../">Privacy / Privacidad</a></small></p>
@@ -43,6 +44,12 @@ var l=(q||navigator.language||"es").slice(0,2);if(!T[l])l="en";
 var t=T[l];document.documentElement.lang=l;
 document.getElementById("lead").textContent=t.lead;
 document.getElementById("cta").textContent=t.cta;
+// La tienda de Amazon de cada idioma (en España, amazon.es)
+var S={es:"www.amazon.es",de:"www.amazon.de",fr:"www.amazon.fr",it:"www.amazon.it",pt:"www.amazon.com.br"};
+if(S[l])document.getElementById("cta").href="https://"+S[l]+"/dp/B0HP2YF1GZ";
+// Tutorial en vídeo (de momento, solo en español)
+var V={es:"▶ Mira cómo se instala y se usa (vídeo de 2 minutos)"};
+if(V[l]){document.getElementById("vida").textContent=V[l];document.getElementById("vid").style.display="block"}
 document.getElementById("note").textContent=t.n;
 t.f.forEach(function(x){var li=document.createElement("li");li.textContent=x;document.getElementById("feat").appendChild(li)});
 </script>
