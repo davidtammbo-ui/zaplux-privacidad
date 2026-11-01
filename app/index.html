@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Zaplux IPTV Player</title>
+<meta name="description" content="Zaplux IPTV Player: reproductor de tus listas IPTV (M3U y Xtream Codes) para Fire TV, con guía de 7 días, agenda deportiva, multivista y más. No incluye canales.">
+<meta property="og:title" content="Zaplux IPTV Player">
+<meta property="og:description" content="Tus listas IPTV en la tele, rápidas y claras. Guía de 7 días, multivista, IA de sonido. No incluye canales.">
+<meta property="og:image" content="https://davidtammbo-ui.github.io/zaplux-privacidad/app/og.png">
+<style>
+:root{--bg:#0f1013;--fg:#f4f4f6;--soft:#a9adb8;--acc:#ff5b3a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:40px 20px 64px}
+img.hero{width:100%;border-radius:14px;display:block;margin-bottom:28px}
+h1{font-size:2rem;margin:0 0 8px}p{color:var(--soft)}
+.btn{display:inline-block;background:var(--acc);color:#fff;text-decoration:none;font-weight:600;padding:14px 22px;border-radius:12px;margin:10px 0}
+ul{padding-left:1.1rem;color:var(--soft)}li{margin:.35rem 0}
+small{color:var(--soft)}a{color:var(--acc)}
+</style>
+</head>
+<body>
+<main>
+<img class="hero" src="og.png" alt="Zaplux IPTV Player">
+<h1>Zaplux IPTV Player</h1>
+<p id="lead"></p>
+<a class="btn" id="cta" href="https://www.amazon.com/dp/B0HP2YF1GZ"></a>
+<ul id="feat"></ul>
+<p><small id="note"></small></p>
+<p><small><a href="../">Privacy / Privacidad</a></small></p>
+</main>
+<script>
+var T={
+es:{lead:"El reproductor de tus listas IPTV para Fire TV: rápido, claro y hecho para el mando.",cta:"Descargar en Amazon Appstore",f:["Listas M3U y Xtream Codes, con guía de 7 días y agenda deportiva","Multivista de hasta 4 canales, pausa en directo y grabaciones (Premium)","IA de sonido: solo comentarista o solo estadio (Premium)","En seis idiomas y con el mando de la tele"],n:"Zaplux es un reproductor: no incluye canales ni contenido. Necesitas tu propia lista de un proveedor legal."},
+en:{lead:"The player for your IPTV playlists on Fire TV: fast, clear and made for the remote.",cta:"Get it on Amazon Appstore",f:["M3U and Xtream Codes playlists, with a 7-day guide and sports agenda","Up to 4-channel multiview, live pause and recordings (Premium)","AI sound: commentator only or stadium only (Premium)","In six languages, built for the TV remote"],n:"Zaplux is a media player: it does not include channels or content. You need your own playlist from a legal provider."},
+pt:{lead:"O player das suas listas IPTV no Fire TV: rápido, claro e feito para o controle remoto.",cta:"Baixar na Amazon Appstore",f:["Listas M3U e Xtream Codes, com guia de 7 dias e agenda esportiva","Multivisão de até 4 canais, pausa no ao vivo e gravações (Premium)","IA de som: só o comentarista ou só o estádio (Premium)","Em seis idiomas e feito para o controle remoto"],n:"O Zaplux é um player: não inclui canais nem conteúdo. Você precisa da sua própria lista de um provedor legal."},
+fr:{lead:"Le lecteur de vos listes IPTV sur Fire TV : rapide, clair et pensé pour la télécommande.",cta:"Télécharger sur Amazon Appstore",f:["Listes M3U et Xtream Codes, guide TV sur 7 jours et agenda sportif","Multivue jusqu’à 4 chaînes, pause du direct et enregistrements (Premium)","IA sonore : commentateur seul ou stade seul (Premium)","En six langues, pensé pour la télécommande"],n:"Zaplux est un lecteur : il n’inclut aucune chaîne ni contenu. Il vous faut votre propre liste auprès d’un fournisseur légal."},
+it:{lead:"Il player per le tue liste IPTV su Fire TV: veloce, chiaro e pensato per il telecomando.",cta:"Scarica su Amazon Appstore",f:["Liste M3U e Xtream Codes, guida TV di 7 giorni e agenda sportiva","Multivista fino a 4 canali, pausa della diretta e registrazioni (Premium)","IA per l’audio: solo telecronista o solo stadio (Premium)","In sei lingue e pensato per il telecomando"],n:"Zaplux è un player: non include canali né contenuti. Ti serve la tua lista di un provider legale."},
+de:{lead:"Dein Player für IPTV-Listen auf Fire TV: schnell, klar und für die Fernbedienung gemacht.",cta:"Im Amazon Appstore laden",f:["M3U- und Xtream-Codes-Listen, 7-Tage-Programm und Sportübersicht","Multiview mit bis zu 4 Sendern, Live-TV pausieren und Aufnahmen (Premium)","KI-Sound: nur Kommentator oder nur Stadion (Premium)","In sechs Sprachen, für die Fernbedienung gemacht"],n:"Zaplux ist ein Player: Er enthält keine Sender und keine Inhalte. Du brauchst deine eigene Liste bei einem legalen Anbieter."}
+};
+var q=new URLSearchParams(location.search).get("lang");
+var l=(q||navigator.language||"es").slice(0,2);if(!T[l])l="en";
+var t=T[l];document.documentElement.lang=l;
+document.getElementById("lead").textContent=t.lead;
+document.getElementById("cta").textContent=t.cta;
+document.getElementById("note").textContent=t.n;
+t.f.forEach(function(x){var li=document.createElement("li");li.textContent=x;document.getElementById("feat").appendChild(li)});
+</script>
+</body>
+</html>
